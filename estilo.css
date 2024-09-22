@@ -1,0 +1,393 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+body {
+
+       font-family : 'Times New Roman', serif, verdana;
+       margin-top: 5px;
+       
+
+     }  
+ 
+     /*Inicio do cabeçalho */
+#header{
+    width: 900px;
+    height: 130px;
+    margin: 0px auto; /*centraliza menu*/
+    background:#dee2f0e5;
+    
+    }
+
+    #header h1{
+        display: block; /*bloqueia linha*/
+        float:left;
+              }
+              #nav{ 
+                list-style:none; /*retira marcadores*/
+                padding-left: 0px;
+                display: block;
+                float: left;
+                margin-left: 70px;	
+                margin-top:60px;	  
+               }
+               	
+#nav li {
+    float:left;
+    margin-left: 60px;
+    }
+    #nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-top: 8px;
+        color:#000000;
+        font-weight: 800;
+        font-size: 13px;
+        }
+        #nav a:hover{
+            background-color:  #c7eff5ad;
+       }
+      
+ul#nav a.ativa{
+          border-bottom: 5px solid #003c6dc5;
+       }
+/*fim do cabeçalho */	
+/*area banner */	  
+#banner{
+    margin-top:15px;
+    width: 900px;
+    
+    margin: 0px auto;
+   /* position: relative;*/
+  }  
+
+  /* fim area banner */	
+/* inicio area section */	   
+#section {
+    width:900px;
+    height:600px;
+    background: #ecf1f38c;
+    margin:15px auto; 
+    padding-left:5px;
+  
+    }
+    .article{
+       /* width:250px;
+        margin:5px 20px;*/
+        }
+     .article h1{
+            font-size: 30px;
+            font-weight: bold;
+            text-transform:uppercase;
+            text-align: center;
+            padding-top: 30px;
+            
+          }
+          
+          .article p {
+          padding-top:5px;
+          font-size: 14px;
+          text-align:justify;
+          float:right;
+          height: 5px;
+          padding-top: 35px;
+         
+          }
+
+          .info img{
+            padding-left: 240px;
+            float: none;
+            padding-top: 180px;
+          margin-right: 180px;
+          margin-bottom: 40px;;
+          }
+          /* fim area section */		
+/*  area rodapé */   
+#footer{
+    width: 900px;
+    height: 45px;
+    background:#004985d5;
+    margin:0 auto;
+    padding-top: 15px;
+  
+   
+    
+    }
+        
+#footer p{
+    font-size: 15px;
+    text-align: center;
+
+
+   }
+
+   
+/* fim area rodape */
+
+/*Codificação da página Sobre*/	
+body{
+background-color: rgb(166, 180, 192);
+font-family: 'Times New Roman', Times, serif, verdana;
+}		 
+#sectionn{
+    width:900px;
+    height:750px;
+    background: #ecf1f38c;
+    margin:15px auto; 
+    padding-left:5px;
+  
+ }
+ .artigo1{
+    width:250px;
+    margin:5px 20px;
+ }
+    .artigo1 h1{
+        font-size: 15px;
+        font-weight: bold;
+        text-transform:uppercase;
+        text-align:center;
+        
+        }
+        .artigo1 p{
+            padding-top:5px;
+            font-size: 15px;
+            text-align:justify;
+
+             }
+             .artigo1 img{
+                margin-left: 24px;
+              }
+        .artigo2 h1 {    
+            font-size:15px;
+        font-weight: bold;
+        text-transform:uppercase;
+        text-align:center;
+        
+        }
+        
+        .artigo2 p{
+            padding-top:5px;
+            font-size: 15px;
+            text-align:justify;
+
+        }
+        .artigo2 img{
+            margin-left: 115px;
+          }
+           .artigo3 h1 {    
+            font-size:15px;
+        font-weight: bold;
+        text-transform:uppercase;
+        text-align:right;
+        margin-top: 30px;
+        padding-right:660px;
+        
+        }
+        .artigo3 p{
+            padding-top:5px;
+            font-size: 15px;
+            text-align:justify;
+          padding-right: 478px;
+
+        }
+        .artigo3 img{
+            margin-left:33px;
+
+          }
+        .artigo4 h1 {    
+            font-size:15px;
+        font-weight: bold;
+        text-transform:uppercase;
+        text-align:left;
+        padding-left: 540px;
+        margin-top: -358px;
+        
+        
+        
+        }
+        .artigo4 p{
+            padding-top:5px;
+            font-size: 15px;
+            text-align:justify;
+            float:none;
+            padding-left: 430px;
+
+        }
+        .artigo4 img{
+            margin-left: 485px;
+            margin-top: 36px;
+           
+
+        }
+        
+            
+ /* FIM Codificação da página Clinica*/	
+        
+
+#conteudo{
+    width:900px;
+    height:400px;
+    background:#ecf1f38c;
+    margin:15px auto; 
+    padding-left:5px;
+    }
+    .artigo1{
+        width:350px;
+        margin:5px 8px;
+        float:left;
+        }
+        .artigo1 h1{
+            font-weight:bold;
+            margin-bottom:5px;
+                   }
+                 
+  .artigo1 ul{
+             padding-top:15px;
+             font-size: 17px;
+             list-style:none; /*retira marcadores*/
+             padding-left: 0px;
+             }*/
+  
+  /* página serviço*/
+  #content{
+    width:900px;
+    height:400px;
+    background-color:#ecf1f38c;
+    margin:15px auto; 
+    padding-left:5px;
+ 
+  }	
+  .art1{
+    width:350px;
+    margin:5px 8px;
+    float:left;
+
+  }
+  .art1 h1{
+    padding-left: 98px;
+    padding-top: 20px;
+  }
+
+  .art1 ul{
+    padding-top:15px;
+     font-size: 17px;
+    list-style:none; /*retira marcadores*/
+    padding-left: 40px;
+  }
+  .art2 img{
+    padding-left: 80px;
+    padding-top: 20px;
+  }
+
+
+#conteudo1{
+    width:900px;
+    height:700px;
+    background:#ecf1f38c;
+    margin:15px auto; 
+    padding-left:5px;
+
+   }
+   #conteudo1 h1{
+    font-weight:bold;
+    margin-bottom:5px;
+    padding-left: 350px;
+    padding-top: 12px;
+
+   }
+
+   .article1 ul{
+    padding-top:15px;
+    font-size: 17px;
+    list-style:none; /*retira marcadores*/
+    padding-left: 0px;
+
+   }
+   .article1 p{
+    padding-top:3px;
+    font-size: 15px;
+    text-align:justify;
+    float:none;
+    padding-left: 430px;
+
+   }
+   .article1 img{
+    padding-left: 280px;
+    padding-top: 20px;
+   }
+/*fim da pag desafios*/
+
+/*pag medalhas*/
+
+  /*Codificação da página contato*/			
+  #section1{
+    width:900px;
+    height:500px;
+    background:#ecf1f38c;
+    margin:1px auto; 
+    }
+    .contato{
+        width:400px;
+        height:300px;
+        margin:5px 5px;
+       
+        }
+        .contato h1{
+            font-size:25px;
+            color: rgb(8, 56, 134);
+            padding-left: 180px;
+            }
+            
+ .contato textarea{
+              resize: none;
+            }
+            .contato1{
+                width:350px;
+                height:300px;
+                margin-left:15px auto;
+                float:left;
+                text-align:center;
+               }
+               .contato1 h1{
+                margin-top: 260px;
+                font-family: arial;
+                font-size: 18px;
+                font-weight: bold;
+             }
+       .contato1 p{
+                  font-size: 13px;
+                  }
+                  #confirma 
+                {
+                    width:900px;
+                    height:500px;
+                    background:#ecf1f38c;
+                    margin:1px auto;
+                     
+
+                }
+                #confirma h1{
+                    padding-left: 280px;
+                    padding-top: 200px;
+                }
+
+                                   /*RESPONSIVIDADE celulares	*/
+@media screen and (min-width:330px) and (max-width:480px){
+    body, div{}
+#footer { margin-left:0px;}
+}
+
+/*RESPOVIVIDADE Ipad  e ipad mini*/
+@media screen and (min-width:768px) and (max-width:1024px){/*ipad*/
+    body, div{}
+    #footer { margin-left:0px;}		
+}	
+
+/*RESPONSIVIDADE ipad air	*/
+@media screen and (min-width:820px) and (max-width:1190px){
+    body, div{}
+#footer { margin-left:9px;}
+}
